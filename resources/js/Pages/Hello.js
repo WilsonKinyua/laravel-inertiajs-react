@@ -9,6 +9,7 @@ export default function Hello(props) {
             <Link href="/logout" method="post" as="button">Logout</Link>
             <Head title="Welcome" />
             <h1>Welcome</h1>
+            <button className="btn btn-primary">Hello</button>
             <p>Hello welcome to your first Inertia app! </p>
         </>
     );
